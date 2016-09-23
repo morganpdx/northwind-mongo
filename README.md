@@ -5,12 +5,7 @@
 * Just a simple data dump from SQL's Northwind database to a CSV
 * CSV (northwind.csv) turned into multiple CSVs
 * CSVs imported into Mongo (mongo-import.sh)
+* All CSVs except northwind.csv data scrubbed
 
-
-### What it needs
-
-* There aren't any employee/product images
-* It's a straight data dump - no relations or special magic
-
-
-Thanks to [@shayden](https://github.com/shayden) for the csv dump. Buyer beware, caveat emptor, carthago delenda est et al
+Thanks to [@shayden](https://github.com/shayden) for the csv dump. 
+Thanks to [@tmcnab] (https://github.com/tmcnab) for the dump into mongo
